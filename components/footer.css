@@ -1,0 +1,32 @@
+.footerNavigation {
+  border: 5px solid black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footerList {
+  display: flex;
+   justify-content: space-around;
+   list-style: none;
+}
+
+.cityButton {
+  background-color: black;
+  fill: gold;
+}
+
+.stammtischButton {
+  background-color: black;
+  fill: gold;
+}
+
+.shopButton {
+  background-color: black;
+  fill: gold;
+}
+
+.settingsButton {
+  background-color: black;
+  fill: gold;
+}

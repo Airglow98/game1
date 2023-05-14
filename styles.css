@@ -1,0 +1,39 @@
+@import "./components/footer.css";
+
+* {
+   box-sizing: border-box;
+}
+
+.textareaChat {
+    resize: none;
+    width: 80%;
+}
+
+.stammtischForm {
+   text-align: center;
+   margin: 0 0 5% 0;;
+}
+
+.stammtischTitle {
+   text-align: center;
+}
+
+.cityButton {
+   background-color: black;
+   fill: gold;
+}
+
+.stammtischButton {
+   background-color: black;
+   fill: gold;
+}
+
+.shopButton {
+   background-color: black;
+   fill: gold;
+}
+
+.settingsButton {
+   background-color: black;
+   fill: gold;
+}
