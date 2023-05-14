@@ -42,6 +42,12 @@
    margin: 0;
 }
 
+.profileBody {
+   padding: 0;
+   margin: 0;
+}
+
+
 .stammtischChatWindow {
    display: flex;
    justify-content: center;
