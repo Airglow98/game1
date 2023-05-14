@@ -1,14 +1,23 @@
 .footerNavigation {
-  border: 5px solid black;
+
   position: fixed;
-  bottom: 0;
+  bottom: 2%;
+  width: 100%;
+  height: 10%;
+  display: flex;
+   justify-content: space-around;
+   align-items: center;
+   list-style: none;
+}
+
+.footerNavigation > * {
+  flex-grow: 1;
   width: 100%;
 }
 
-.footerList {
-  display: flex;
-   justify-content: space-around;
-   list-style: none;
+.footerNavigation button {
+  flex-grow: 1;
+  width: 100%;
 }
 
 .cityButton {
@@ -27,6 +36,11 @@
 }
 
 .settingsButton {
+  background-color: black;
+  fill: gold;
+}
+
+.profileButton {
   background-color: black;
   fill: gold;
 }

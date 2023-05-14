@@ -5,14 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles.css" />
-    <script src="../js/index.js" defer></script>
-    <title>shop</title>
+    <script src="../js/stammtisch.js" defer></script>
+    <title>stammtisch</title>
   </head>
 
   <main>
-    <h2>Shop</h2>
-    <body class="shopBody"></body>
+    <div class="stammtischTitle">
+      <h2>Stammtisch</h2>
+    </div>
+    <body class="stammtischBody">
+      <form action="" class="stammtischForm">
+        <div class="stammtischChatWindow">
+          <label for="chat"></label>
+          <textarea
+            name="chat"
+            id="chat"
+            cols="50"
+            rows="5"
+            class="textareaChat"
+          ></textarea>
+          <button class="stammtischChatButton">-></button>
+        </div>
+      </form>
+    </body>
   </main>
+
   <footer class="footerNavigation">
     <a href="city.html">
       <button type="button" class="cityButton">
