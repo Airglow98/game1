@@ -9,6 +9,23 @@
     width: 80%;
     background-color: black;
     color: gold;
+   border: gold groove 3px;
+   padding: 5%;
+}
+
+.stammtischSendedMessageBox {
+   border: 5 solid red;
+   background-color: black;
+   color: gold;
+   width: 86%;
+   height: 10%;
+   margin: 10% 7%;
+   border: gold groove 3px;
+}
+
+.stammtischSendedMessageInput {
+   word-wrap: break-word;
+   margin: 5%;
 }
 
 .stammtischForm {
@@ -26,25 +43,30 @@
 .stammtischBody {
    padding: 0;
    margin: 0;
+   background-color: bisque;
 }
 .cityBody {
    padding: 0;
    margin: 0;
+   background-color: bisque;
 }
 
 .shopBody {
    padding: 0;
    margin: 0;
+   background-color: bisque;
 }
 
 .settingsBody {
    padding: 0;
    margin: 0;
+   background-color: bisque;
 }
 
 .profileBody {
    padding: 0;
    margin: 0;
+   background-color: bisque;
 }
 
 
@@ -58,6 +80,7 @@
    align-self: stretch;
    color: gold;
    background-color: black;
+   border: gold groove 3px;
 }
 
 
